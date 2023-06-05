@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="<%= site.locale %>">
+  <head>
+    <%= render "head", metadata: site.metadata, title: data.title %>
+    <%= render "umstaffs_head", metadata: site.metadata, title: data.title %>
+  </head>
+  <body class="<%= data.layout %> <%= data.page_class %>">
+    <div id="et-boc" class="et-boc">
+
+      <%= render "header", metadata: site.metadata, title: data.title %>
+	    <div id="et-main-area">
+	
+        <div id="main-content">
+          <main>
+            <%= yield %>
+          </main>
+
+        </div> <!-- #main-content -->
+      </div> <!-- #et-main-area -->
+
+    </div>
+
+    <%= render "footer", metadata: site.metadata %>
+  </body>
+</html>

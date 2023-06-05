@@ -1,0 +1,18 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<% resource_title = strip_html(strip_newlines(title)) %>
+<title><% if resource_title != "Index" %><%= resource_title %> | <%= metadata.title %><% else %><%= metadata.title %>: <%= metadata.tagline %><% end %></title>
+
+<meta name="description" content="<%= metadata.description %>" />
+
+<link rel="stylesheet" href="<%= webpack_path :css %>" />
+<script src="<%= webpack_path :js %>" defer></script>
+<%= live_reload_dev_js %>
+<%# jquery %>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+<%# jquery mobile %>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<%# jqueryUI %>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
