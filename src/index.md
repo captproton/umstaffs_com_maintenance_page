@@ -286,7 +286,8 @@ layout: default
 				
 				
 				
-				<div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_row et_pb_row_7" style="background-color: RGB(91,124,153, 0.5);
+  color: white;">
 				<div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
 				
 				
