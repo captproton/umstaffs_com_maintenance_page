@@ -5,38 +5,20 @@ layout: default
 ---
 
 <article id="post-268534" class="post-268534 page type-page status-publish hentry">
-
-				
-					<div class="entry-content">
-					<div class="et-l et-l--post">
+	<div class="entry-content">
+		<div class="et-l et-l--post">
 			<div class="et_builder_inner_content et_pb_gutters3">
-		<div id="notice-section" class="et_pb_section et_pb_section_0 et_pb_with_background et_section_regular">
-				
-				
-				
-				
-				
-				
-				<div class="et_pb_row et_pb_row_0">
-				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
-				
-				
-				
-				
-				<div class="et_pb_module et_pb_blurb et_pb_blurb_0 close-notice  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
-				
-				
-				
-				
-				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">M</span></span></div>
-					<div class="et_pb_blurb_container">
-						
-						
+				<div id="notice-section" class="et_pb_section et_pb_section_0 et_pb_with_background et_section_regular">
+					<div class="et_pb_row et_pb_row_0">
+						<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+							<div class="et_pb_module et_pb_blurb et_pb_blurb_0 close-notice  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+							<div class="et_pb_blurb_content">
+								<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><span class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone et-pb-icon">M</span></span></div>
+								<div class="et_pb_blurb_container">
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			</div>
 				
 				
 				
@@ -85,47 +67,7 @@ layout: default
     display: block !important;
   }
 </style>
-<script>
-function storageAvailable(type) {
-  try {
-      var storage = window[type],
-          x = '__storage_test__';
-      storage.setItem(x, x);
-      storage.removeItem(x);
-      return true;
-  }
-  catch(e) {
-      return e instanceof DOMException && (
-          // everything except Firefox
-          e.code === 22 ||
-          // Firefox
-          e.code === 1014 ||
-          // test name field too, because code might not be present
-          // everything except Firefox
-          e.name === 'QuotaExceededError' ||
-          // Firefox
-          e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
-          // acknowledge QuotaExceededError only if there's something already stored
-          storage.length !== 0;
-  }
-}
-jQuery(document).ready(function($) {
-  var storageAvailable = window.storageAvailable('sessionStorage');
-  $(".close-notice").click(function() {
-    $("#notice-section").slideUp();
-    if (storageAvailable) {
-      sessionStorage.setItem('etNoticeState','hidden'); 
-    }    
-  });
-  if (storageAvailable) {
-    if ('hidden' !== sessionStorage.getItem('etNoticeState')){
-      $("#notice-section").show();
-    }
-  } else {
-    $("#notice-section").show();
-  }
-});
-</script></div>
+</div>
 			</div>
 			</div>
 				
@@ -174,7 +116,7 @@ jQuery(document).ready(function($) {
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/woman-2.png" alt="" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/woman-2.png 64w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/woman-2-20x20.png 20w" sizes="(max-width: 64px) 100vw, 64px" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268507" width="64" height="64"></span></div>
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img src="/images/woman-2.png" alt="woman-2.png" srcset="/images/woman-2.png 64w, /images/woman-2-20x20.png 20w" sizes="(max-width: 64px) 100vw, 64px" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268507" width="64" height="64"></span></div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><span>What our Residents Deserve</span></h4>
 						<div class="et_pb_blurb_description"><p>Licensed Nurses, Certified Nursing Assistants, and Medical Professionals who have a true passion and desire to care for the well-being of others.</p></div>
@@ -192,7 +134,7 @@ jQuery(document).ready(function($) {
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/hospital.png" alt="" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/hospital.png 64w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/hospital-20x20.png 20w" sizes="(max-width: 64px) 100vw, 64px" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268561" width="64" height="64"></span></div>
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img src="/images/hospital.png" alt="hospital.png" srcset="/images/hospital.png 64w, /images/hospital-20x20.png 20w" sizes="(max-width: 64px) 100vw, 64px" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268561" width="64" height="64"></span></div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><span>Manage Your Own Schedule</span></h4>
 						<div class="et_pb_blurb_description"><p>Several shifts available in Utah, Washington and Oregon waiting to be filled!</p></div>
@@ -210,7 +152,7 @@ jQuery(document).ready(function($) {
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/money-bag.png" alt="" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/money-bag.png 64w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/money-bag-20x20.png 20w" sizes="(max-width: 64px) 100vw, 64px" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268564" width="64" height="64"></span></div>
+					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img src="/images/money-bag.png" alt="money-bag.png" srcset="/images/money-bag.png 64w, /images/money-bag-20x20.png 20w" sizes="(max-width: 64px) 100vw, 64px" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268564" width="64" height="64"></span></div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><span>Compensation</span></h4>
 						<div class="et_pb_blurb_description"><p>All wages are based on experience, work ethics, personal morals, values, and desire.</p></div>
@@ -243,7 +185,7 @@ jQuery(document).ready(function($) {
 				
 				
 				
-				<span class="et_pb_image_wrap "><picture><source srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/pat-sat-hands-highfive-nurse-child.png.webp 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/pat-sat-hands-highfive-nurse-child-480x433.png.webp 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/pat-sat-hands-highfive-nurse-child.png" alt="" title="pat-sat-hands-highfive-nurse-child" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/pat-sat-hands-highfive-nurse-child.png 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/pat-sat-hands-highfive-nurse-child-480x433.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="wp-image-268567 webpexpress-processed" width="800" height="722"></picture></span>
+				<span class="et_pb_image_wrap "><picture><source srcset="/images/pat-sat-hands-highfive-nurse-child.png 800w, /images/pat-sat-hands-highfive-nurse-child-480x433.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="/images/pat-sat-hands-highfive-nurse-child.png" alt="pat-sat-hands-highfive-nurse-child" title="pat-sat-hands-highfive-nurse-child" srcset="/images/pat-sat-hands-highfive-nurse-child.png 800w, /images/pat-sat-hands-highfive-nurse-child-480x433.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="wp-image-268567 webpexpress-processed" width="800" height="722"></picture></span>
 			</div>
 			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_8  et_pb_css_mix_blend_mode_passthrough et-last-child">
 				
@@ -286,9 +228,9 @@ jQuery(document).ready(function($) {
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/medical-professionals/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><source srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/img-6.jpg.webp 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/img-6-480x423.jpg.webp 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/img-6.jpg" alt="" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/img-6.jpg 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/img-6-480x423.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268542 webpexpress-processed" width="800" height="705"></picture></span></a></div>
+					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/medical-professionals/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><source srcset="/images/img-6.jpg 800w, /images/img-6-480x423.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="/images/img-6.jpg" alt="img-6" srcset="/images/img-6.jpg 800w, /images/img-6-480x423.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268542 webpexpress-processed" width="800" height="705"></picture></span></a></div>
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/medical-professionals/">Medical Professionals</a></h4>
+						<h4 class="et_pb_module_header"><a href="/medical-professionals/">Medical Professionals</a></h4>
 						<div class="et_pb_blurb_description"><p>With several Medical Facilities in Utah, California, Oregon, Nevada, Washington, and Hawaii, United Medical Staffing Solutions staffs only the elite in licensed medical professionals. With a proven track record of quality and care, the UMSS team takes pride in efficiently and effectively completing all tasks required by our clients!</p></div>
 					</div>
 				</div>
@@ -304,7 +246,7 @@ jQuery(document).ready(function($) {
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/pro-active-management/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><source srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/pro-management-expectations.png.webp 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/pro-management-expectations-480x423.png.webp 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/pro-management-expectations.png" alt="" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/pro-management-expectations.png 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/pro-management-expectations-480x423.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268570 webpexpress-processed" width="800" height="705"></picture></span></a></div>
+					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/pro-active-management/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><source srcset="/images/pro-management-expectations.png 800w, /images/pro-management-expectations-480x423.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="/images/pro-management-expectations.png" alt="pro-management-expectations.png" srcset="/images/pro-management-expectations.png 800w, /images/pro-management-expectations-480x423.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268570 webpexpress-processed" width="800" height="705"></picture></span></a></div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/pro-active-management/">Pro-Active Management</a></h4>
 						<div class="et_pb_blurb_description"><p>We believe in building quality partnerships with each individual client we serve. By understanding the expectations of each facility, our management team can get to work. Providing quality medical professionals and lowering the cost of staffing services for our clients.</p></div>
@@ -322,7 +264,7 @@ jQuery(document).ready(function($) {
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/blog/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><source srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/training-newsletter.png.webp 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/webp-express/webp-images/uploads/2020/11/training-newsletter-480x423.png.webp 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" type="image/webp"><img src="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/training-newsletter.png" alt="" srcset="https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/training-newsletter.png 800w, https://web.archive.org/web/20221129075733im_/https://umstaffs.com/wp-content/uploads/2020/11/training-newsletter-480x423.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw" class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-268582 webpexpress-processed" width="800" height="705"></picture></span></a></div>
+					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/blog/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><img src="/images/training-newsletter.png" alt="training-newsletter.png"  width="800" height="705"></picture></span></a></div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/blog/">Weekly News Letter &amp; Training</a></h4>
 						<div class="et_pb_blurb_description"><p>Part of our success comes through the transparency of our business. Our management team provides weekly news letters and weekly training for each individual team member. This helps maintain a safe and effective working environment, both for staff and our residents.</p></div>
