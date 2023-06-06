@@ -264,7 +264,7 @@ layout: default
 				
 				
 				<div class="et_pb_blurb_content">
-					<div class="et_pb_main_blurb_image"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/blog/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><img src="/images/training-newsletter.png" alt="training-newsletter.png"  width="800" height="705"></picture></span></a></div>
+					<div class="et_pb_main_blurb_image"><a href="/blog/"><span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><picture><img src="/images/training-newsletter.png" alt="training-newsletter.png"  width="800" height="705"></picture></span></a></div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><a href="https://web.archive.org/web/20221129075733/https://umstaffs.com/blog/">Weekly News Letter &amp; Training</a></h4>
 						<div class="et_pb_blurb_description"><p>Part of our success comes through the transparency of our business. Our management team provides weekly news letters and weekly training for each individual team member. This helps maintain a safe and effective working environment, both for staff and our residents.</p></div>
@@ -286,7 +286,8 @@ layout: default
 				
 				
 				
-				<div class="et_pb_row et_pb_row_7">
+				<div class="et_pb_row et_pb_row_7" style="background-color: RGB(91,124,153, 0.5);
+  color: white;">
 				<div class="et_pb_column et_pb_column_1_2 et_pb_column_12  et_pb_css_mix_blend_mode_passthrough">
 				
 				
